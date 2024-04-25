@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BannerVideo">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/times_new_roman"
+                    android:padding="5dp"
+                    android:text="@string/paragrap1"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_medium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/times_new_roman"
+                    android:padding="5dp"
+                    android:text="@string/paragrap2"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_medium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/times_new_roman"
+                    android:padding="5dp"
+                    android:text="@string/paragrap3"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_medium"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/times_new_roman"
+                    android:padding="5dp"
+                    android:text="@string/paragrap4"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_medium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/times_new_roman"
+                    android:padding="5dp"
+                    android:text="@string/paragrap3"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_medium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/times_new_roman"
+                    android:padding="5dp"
+                    android:text="@string/paragrap3"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_medium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/times_new_roman"
+                    android:padding="5dp"
+                    android:text="@string/paragrap3"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_medium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/times_new_roman"
+                    android:padding="5dp"
+                    android:text="@string/paragrap3"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_medium"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <FrameLayout
+            android:id="@+id/adFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <com.google.android.exoplayer2.ui.StyledPlayerView
+                android:id="@+id/playerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

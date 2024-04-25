@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SDKAdDemo</string>
+    <string name="ad_tag_url2"><![CDATA[https://rvphp.djaxbidder.com/demo_advancedvast/fc.php?script=rmVideo&zoneid=12&format=vast3]]></string>
+
+
+    <string name="content_url"><![CDATA[https://storage.googleapis.com/gvabox/media/samples/stock.mp4]]></string>
+    <string name="ad_tag_url"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpost&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator=]]></string>
+
+</resources>
